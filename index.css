@@ -1,0 +1,41 @@
+#startbtn{
+    background-color: gray;
+    font-size: 50px;
+    /* border-radius: 50px; */
+    color: green;
+    margin: 25px;
+}
+#pausebtn{
+    background-color: gray;
+    font-size:50px ;
+    /* border-radius: 50px; */
+    color: green;
+    margin: 25px;
+}
+#resetbtn{
+    background-color: gray;
+    font-size:50px;
+    /* border-radius: 50px; */
+    color: green;
+    margin: 25px;
+}
+#hour{
+    
+    border-radius: 50px;
+    background-color: gray;
+}
+#min{
+    border-radius: 50px;
+    background-color: gray;
+}
+#sec{
+    border-radius: 50px;
+    background-color: gray;
+}
+#msec{
+    border-radius: 50px;
+    background-color: gray;
+}
+#bahi2{
+    background-color: gray;
+}
