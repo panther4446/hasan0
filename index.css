@@ -1,41 +1,17 @@
-#startbtn{
-    background-color: gray;
-    font-size: 50px;
-    /* border-radius: 50px; */
-    color: green;
-    margin: 25px;
+#hasan1{
+     text-align: center;
+     font-size: larger;
+     /* background-color: blue; */
 }
-#pausebtn{
-    background-color: gray;
-    font-size:50px ;
-    /* border-radius: 50px; */
-    color: green;
-    margin: 25px;
+#hasan2{
+font-size: 25px
 }
-#resetbtn{
-    background-color: gray;
-    font-size:50px;
-    /* border-radius: 50px; */
-    color: green;
-    margin: 25px;
+#inputFiedl{
+    font-size: 25px;
 }
-#hour{
+#hasan3{
+    font-size: 25px;
+}
+#list{
     
-    border-radius: 50px;
-    background-color: gray;
-}
-#min{
-    border-radius: 50px;
-    background-color: gray;
-}
-#sec{
-    border-radius: 50px;
-    background-color: gray;
-}
-#msec{
-    border-radius: 50px;
-    background-color: gray;
-}
-#bahi2{
-    background-color: gray;
 }

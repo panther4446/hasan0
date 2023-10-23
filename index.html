@@ -3,47 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>stop watch</title>
+    <title>Todo App </title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-<style>
-body{
-    background-color: gray;
-    text-align: center;
-}
-
-h1{
-    width: 150px;
-    color: black;
-    background-color: white;
-    display: inline-block;   
-
-}
-
-
-
-</style>
 </head>
 <body>
-        <div>
-            <h1 id="bahi2">
-            stop watch
-        </h1>
-    </div>
-     <div id="hasan">
-        <h1 id="hour">0</h1>
-        <h1 id="min">0</h1>
-        <h1 id="sec">0</h1>
-        <h1 id="msec">0</h1>
-     </div>
-     <div id="bahi1">
-         <button  id="startbtn" onclick="start()"><i class="fa-solid fa-circle-play"></i> </button>
+    <div id="bahi1">
 
-        <button id="pausebtn" onclick="pause()"><i class="fa-solid fa-pause"></i></button>
-        <button id="resetbtn" onclick="reset()"><i class="fa-solid fa-arrows-rotate"></i></button>
+        <div id="hasan1" >
+            <input id="inputField" type="text"/>
+            <button id="hasan2" onclick="addtodo()"><i class="fa-solid fa-address-book"></i></button>
+            <button id="hasan3" onclick="deleteAll()"><i class="fa-solid fa-delete-left"></i>   </button>
+        </div>
+        
+        <div style="list-style: none; text-align: center;" >
+            <ul id="list">
+                
+            </ul>
+        </div>
     </div>
-
 </body>
 <script src="index.js"></script>
 </html>
