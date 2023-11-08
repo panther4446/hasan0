@@ -1,54 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
-*{
 
-   margin: 0;
-   padding: 0;  
-   font-family: 'Josefin Sans', sans-serif;
-   font-weight: 300 ;
+.hasan{
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
 }
-html{
-    font-size: 62.5%;
-
+.hasan0{
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+#email{
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+#password{
+    margin-bottom: 10px;
+    border: 1px solid black;
 }
 .hasan1{
-    width: 100vw;
-    min-height: 100vh;
-    display: grid;
-    place-content: center;
-    background-color: hsl(206, 92%, 94%);
-}
-.hasan2{
-    width: 40vw;
-    background-color: #fff;
-    padding: 3rem 8rem;
-    border-radius: 1rem;   
-    box-shadow: 0 1rem  -0.7rem rgb(red, green, 0.4);
-
-}
-.question{
-font-size: 3.5rem;
-font-weight: 400;
-margin: 1rem 0 4rem 0;  
-
+    border: 1px solid black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 400;
+    margin-left: 105px;
+    cursor: pointer;
 }
 .hasan4{
-font-size: 2rem;
-margin-top: 1.5rem;
-list-style: none;
-cursor: pointer;
-}
-.Submit{
-padding: 1rem 3rem;
-outline: none;
-font-size: 2rem;
-font-size: 400;
-display: block;
-margin: auto;
-text-transform: uppercase;
-color: #fff;
-background-color: #74b9ff;
-margin-top: 5rem;
-}
-#Submit:hover{
-    background-color: #0984e3;
-}
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100px;
+    font-style: italic;
+}   
